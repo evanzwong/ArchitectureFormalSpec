@@ -84,14 +84,13 @@ class TinyConfig extends Config(
   new BaseConfig
 )
 
-class 144ProjectConfig extends Config { //I am flagging this is our config for the project
+class Project144Config extends Config { //I am flagging this is our config for the project
   new With1TinyCore ++
   new WithNoMemPort ++
   new WithNMemoryChannels(0) ++
   new WithNBanks(0) ++
-  new chipyard.config.WithNoPeripherals ++
   new WithIncoherentBusTopology ++
-  new freechips.rocketchip.system.BaseConfig
+  new BaseConfig
 }
 
 class MemPortOnlyConfig extends Config(
