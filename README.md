@@ -5,4 +5,6 @@ Objective: Formally model basic computer microarchitectures in CPUs such as spec
 
 What is contained in this repo: Edited files from the Chipyard install (when running `./build-setup.sh riscv-tools`, add `-s 6 -s 7 -s 8 -s 9`).
 
+Also have to run ``source "${HOME}/conda/etc/profile.d/conda.sh"`` when opening WSL.
+
 Config File: Taken from `chipyard/generators/rocket-chip/src/main/scala/system/` and the config we added is "144ProjectConfig"
