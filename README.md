@@ -14,11 +14,12 @@ Progress:
 4/18/25 - Confirmed minimal configuration and created repo
 
 4/23 - Tested configuration using Verilator running:
-```cd sims/verilator
-make CONFIG=Project144Config```
+``cd sims/verilator
+make CONFIG=Project144Config``
 
 Created riscvmelttest.S which is an assembly test to be compiled into RISC-V using probably the Makefile in the risc-v toolchain. No guarantee it works though.
 
-
+5/13 - Had been trying to add custom branch predictor and rocketchip config
+*note that custom branch predictor file was found in ``chipyard/generators/boom/src/main/resources/csrc/predictor_sw.``
 
 
